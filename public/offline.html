@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Soli </title>
+    
+    <style type="text/css">
+            body{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            height: 50vh;
+            transform: translateY(30%);
+            
+            }
+
+            .nonet-msg {
+            font-size: 32px;
+            width: 90%;
+            margin: auto;
+            display:flex;
+            justify-content:center;
+            font-weight: 600;
+            
+            }
+
+            .nonet-icon{
+            width: 20%;
+            margin: auto;
+            margin-bottom: 0;
+            margin-top: 0;
+            border-radius:1rem;
+            }
+
+            a{
+            width: 50%;
+            margin: auto;
+            display:flex;
+            justify-content:center;
+            }
+            .icon{
+            width: 5rem;
+            }
+
+            @media (max-width: 600px ){
+
+            .nonet-msg{ 
+            font-size: 20px;
+            margin: auto;
+            width: 99%;
+            display:flex;
+            justify-content:center;
+            font-weight: 600;
+            }
+            .nonet-icon{
+            width: 20%;
+            margin: auto;
+            margin-bottom: 0;
+            border-radius:1rem;
+            }
+            .icon{
+            width: 5rem;
+            margin: auto;
+            }
+
+            }
+    </style>
+
+<body>
+ 
+  <script>
+        window.addEventListener('load',
+       async ()=>{ 
+             await caches.match('nonet.jpg').then(res=>{
+                document.getElementById("icon").src=res.url
+            });
+         }
+        )  
+  </script>
+
+  <img id="nonet" alt="no internet connection" class="nonet-icon">
+  <div class="nonet-msg">Plesae ckeck your internet connection and try again </div>
+  <a href="https://soli-cv.web.app"> visit my page
+  </a>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+
+{
+    "nav": 
+    [    
+        { "id": "1", "title": "home", "icon": "" },
+        { "id": "2", "title": "services", "icon": "" },
+        { "id": "3", "title": "portfolio", "icon": "" },
+        { "id": "4", "title": "about", "icon": "" },
+        { "id": "4", "title": "contact", "icon": "" }    
+    ],
+    
+    "routes": 
+    [
+        { "path": "/",          "exact": true,    "name": "Home",         "component":  "Home"       },  
+        { "path": "/home",      "exact": true,    "name": "Home",         "component":  "Home"       },  
+        { "path": "/services",  "exact": true,    "name": "Services",     "component": "Services"    },
+        { "path": "/portfolio", "exact": true,    "name": "Portfolio",    "component": "Portfolio"   },
+        { "path": "/about",     "exact": true,    "name": "About",        "component": "About"       },
+        { "path": "/contact",   "exact": true,    "name": "Contact",      "component": "Contact"     }
+    ]
+}

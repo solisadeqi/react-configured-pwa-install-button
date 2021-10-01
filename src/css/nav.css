@@ -1,0 +1,110 @@
+
+*{
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.nav{ 
+    z-index: 10; 
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 55px;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+
+}
+
+.page-content{
+    padding-top: 70px;
+}
+
+/* desktop */
+.phone-menu{
+    display: none;
+}
+
+.icon-menu{
+    display: none;
+    cursor: pointer;
+}
+
+.bar:hover{
+    background-color: rgb(236, 215, 222);
+    border-radius: 2rem;
+    padding: .2rem;
+}
+
+.login{ cursor: pointer;}
+
+.menu > Button {
+    /* background-color: gold; */
+    display: flex;
+    justify-content: center;
+    border-radius: .5rem;
+    margin: 1rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    font-size: small;
+}
+
+
+
+
+/* mobile */
+@media ( max-width: 900px) {
+    .lan{ display: none !important;}
+    .login{ display: none !important; }
+
+    .icon-menu{ 
+        display: inline !important;
+        font-weight: 800 !important;
+        font-size: xx-large !important;
+        display: flex !important;
+        justify-content: flex-end !important;
+    }
+    .phone-login{ cursor: pointer;}
+    .menu { 
+        display: none !important;
+    }
+    .phone-menu{ 
+        display: block !important;
+        top: 3.3rem;
+        width: 100% ;
+        height: auto;
+        background: linear-gradient(  rgb(202, 124, 124), rgb(102, 102, 174) );
+        position: fixed;
+        z-index: 1;
+    }
+
+    .phone-menu > Button {
+        border-radius: 5rem;
+    }
+    .phone-menu > div:hover {
+        background-color: blue !important;
+    }
+    .showMenu{ right: 0%; animation: showMenu .6s;}
+    .hideMenu{ right: 100%; animation: hideMenu .4s;}
+
+    @keyframes showMenu {
+        from{ right:100%; }
+        to{ right:0% ; }
+    }
+    @keyframes hideMenu {
+        from{ left:0% }
+        to{ left:100% }
+    }
+
+    .page-content{
+        padding-top: 50px;
+    }
+
+}
+ 
