@@ -1,5 +1,5 @@
-# React pwa install button
-optimized PWA and  install button
+# React PWA Install Button
+Optimized PWA and install button
 
 
 # [Live Demo](https://sharp-hypatia-1e2336.netlify.app/)
