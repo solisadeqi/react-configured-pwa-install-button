@@ -5,9 +5,9 @@ import Flag from 'react-flagpack'
 import '../../css/nav.css'
 import { Link } from 'react-router-dom'
 import data from '../data'
-import InstallpwaButton from './pwa-install-button/pwaInstallButton'
+ 
 
-// const InstallpwaButton = React.lazy(()=>import('./pwa-install-button/InstallpwaButton'))
+const PWAInstallButton = React.lazy(()=>import('./pwa-install-button/PWAInstallButton'))
  
 
 const Navbar = () => {
@@ -42,8 +42,8 @@ const Navbar = () => {
             </div>
         
 
-            <div className="pwa-install col-1 bg-success p-0 m-0"> 
-                <InstallpwaButton/>
+            <div className="pwa-install col-1 p-0 m-0"> 
+                <PWAInstallButton/>
             </div>
 
             <div className="login col-1 p-0 m-0"> <Avatar/> </div>
@@ -59,7 +59,7 @@ const Navbar = () => {
                         <Flag code='US' size= "m" className="mx-2"/>  
                         <Flag code='JP' size="m" className="mx-2"/>
                     </div>
-                    <InstallpwaButton className="pwa-install-phone"/>
+                    <PWAInstallButton className="pwa-install-phone"/>
                     <div className="phone-login align-items-center"> <Avatar/> </div>
                 </items>
                 <hr/>

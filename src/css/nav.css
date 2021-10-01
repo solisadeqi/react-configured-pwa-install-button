@@ -62,7 +62,7 @@
 @media ( max-width: 900px) {
     .lan{ display: none !important;}
     .login{ display: none !important; }
-
+    .pwa-install{  display: none; }
     .icon-menu{ 
         display: inline !important;
         font-weight: 800 !important;

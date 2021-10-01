@@ -6,7 +6,7 @@ import { AiFillApple } from 'react-icons/ai'
 import { DiWindows } from 'react-icons/di'
 
 
-const InstallpwaButton = () => {
+const PWAInstallButton = () => {
     const { pwaInstall, supported, isInstalled } = useReactPWAInstall();
     
 
@@ -44,4 +44,4 @@ const InstallpwaButton = () => {
     )
 }
 
-export default InstallpwaButton
+export default PWAInstallButton
