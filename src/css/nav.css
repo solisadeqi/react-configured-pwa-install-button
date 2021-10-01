@@ -55,7 +55,9 @@
     font-size: small;
 }
 
-
+.pwa-btn , .pwa-btn:focus{ 
+    outline: none !important;   
+ }
 
 
 /* mobile */

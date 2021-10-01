@@ -34,7 +34,7 @@ const PWAInstallButton = () => {
                 { supported && !isInstalled() && (
                 
                         <Tooltip title={<h5> <FaAndroid className="text-success"/> ￤ <AiFillApple className=""/> ￤ <DiWindows className="text-primary"/> </h5>}>
-                            <Button size="small" type="button" variant="contained"  onClick={ handleClick } >
+                            <Button size="small" type="button" variant="contained"  onClick={ handleClick } className="pwa-btn">
                             Install
                             </Button>
                         </Tooltip>
