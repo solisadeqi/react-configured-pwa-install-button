@@ -8,6 +8,6 @@ Install :
   1 - npm install      
   2 - npm start       
 
-Thank you
-ありがとうございます。
-Gracias
+Thank you   
+ありがとうございます。    
+Gracias     
