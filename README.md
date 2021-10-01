@@ -1,9 +1,9 @@
-# react-configured-pwa-install-button
-React configured PWA and install button
+# React pwa install button
+optimized PWA and  install button
 
 
-
-# Live Demo (https://sharp-hypatia-1e2336.netlify.app/)
+# Live Demo 
+(https://sharp-hypatia-1e2336.netlify.app/)
 
 
 Install :       
