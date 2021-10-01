@@ -2,6 +2,10 @@
 React configured PWA and install button
 
 
-Install :   
-1 - npm install 
-2 - npm start  
+
+# Live Demo (https://sharp-hypatia-1e2336.netlify.app/)
+
+
+Install :       
+  1 - npm install      
+  2 - npm start       
