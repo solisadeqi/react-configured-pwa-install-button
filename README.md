@@ -7,3 +7,7 @@ optimized PWA and  install button
 Install :       
   1 - npm install      
   2 - npm start       
+
+Thank you
+ありがとうございます。
+Gracias
